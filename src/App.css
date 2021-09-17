@@ -1,0 +1,57 @@
+.App, body {
+  background-color: #F2F2F2;
+}
+
+ul{
+  list-style: none;
+  margin: 5%;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #A6A297;
+  font-size: 60%;
+}
+
+li{
+  background-color: #F2E635;
+  margin: 20px;
+  border-radius: 1%;
+  padding: 5%;
+}
+
+img{
+  width: 25%;
+  height: 25%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .App, a{
+    font-size: 20px;
+  }
+
+  a{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .info{
+    align-items: flex-start;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}

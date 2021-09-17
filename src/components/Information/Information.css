@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+input, button{
+    margin-top: 20px;
+    border: none;
+    background-color: #A6A297;
+    width: 80%;
+    height: 50px;
+    color: #F2F2F2;
+    font-size: 80%;
+}
+
+input{
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+input::placeholder{
+    color: #A68F1F;
+}
+
+button{
+    width: 25%;
+    height: 52px;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+    background-color: #A69D1F;
+    color: #F2E635;
+}
